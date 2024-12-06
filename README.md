@@ -11,7 +11,7 @@ Core implementation of the Cosmic Ledger project, a decentralized finance ecosys
 - [Architecture](#architecture)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Documentation](#api-documentation)
+- [API Documentation](#api-endpoints)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -46,29 +46,29 @@ To get started with Cosmic-Ledger-Core, follow these steps:
 
 2. **Install dependencies**: Make sure you have Node.js and npm installed. Then run:
 
-```bash
-1 npm install
-```
+   ```bash
+   1 npm install
+   ```
 
 3. **Set up environment variables**: Create a .env file in the root directory and configure your environment variables as needed.
 
 4. **Compile smart contracts**:
 
-```bash
-1 npm run compile
-```
+   ```bash
+   1 npm run compile
+   ```
 
 5. **Run migrations**:
 
-```bash
-1 npm run migrate
-```
+   ```bash
+   1 npm run migrate
+   ```
 
 6. **Start the application**:
 
-```bash
-1 npm start
-```
+   ```bash
+   1 npm start
+   ```
 
 
 ### Usage
@@ -83,21 +83,21 @@ We welcome contributions to Cosmic-Ledger-Core! To contribute:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
 
-```bash
-1 git checkout -b feature/my-feature
-```
+   ```bash
+   1 git checkout -b feature/my-feature
+   ```
 
 3. Make your changes and commit them:
 
-```bash
-1 git commit -m "Add my feature"
-```
+   ```bash
+   1 git commit -m "Add my feature"
+   ```
 
 4. Push to your branch:
 
-```bash
-1 git push origin feature/my-feature
-```
+   ```bash
+   1 git push origin feature/my-feature
+   ```
 
 5. Create a pull request.
 Please ensure that your code adheres to the project's coding standards and includes appropriate tests.
