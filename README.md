@@ -14,7 +14,6 @@ Core implementation of the Cosmic Ledger project, a decentralized finance ecosys
 - [API Documentation](#api-documentation)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 ## Features
 
@@ -49,80 +48,59 @@ To get started with Cosmic-Ledger-Core, follow these steps:
 
 ```bash
 1 npm install
-Set up environment variables: Create a .env file in the root directory and configure your environment variables as needed.
+```
 
-Compile smart contracts:
+3. **Set up environment variables**: Create a .env file in the root directory and configure your environment variables as needed.
 
-bash
+4. **Compile smart contracts**:
 
-Verify
+```bash
+1 npm run compile
+```
 
-Open In Editor
-Edit
-Copy code
-npm run compile
-Run migrations:
+5. **Run migrations**:
 
-bash
+```bash
+1 npm run migrate
+```
 
-Verify
+6. **Start the application**:
 
-Open In Editor
-Edit
-Copy code
-npm run migrate
-Start the application:
+```bash
+1 npm start
+```
 
-bash
 
-Verify
-
-Open In Editor
-Edit
-Copy code
-npm start
-
-Usage
+### Usage
 Once the application is running, you can access the user interface through your web browser at http://localhost:3000.
 
-API Endpoints
+### API Endpoints
 Refer to the API Documentation for a complete list of available endpoints and their usage.
 
-Contributing
+## Contributing
 We welcome contributions to Cosmic-Ledger-Core! To contribute:
 
-Fork the repository.
-Create a new branch for your feature or bug fix:
-bash
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
 
-Verify
+```bash
+1 git checkout -b feature/my-feature
+```
 
-Open In Editor
-Edit
-Copy code
-git checkout -b feature/my-feature
-Make your changes and commit them:
-bash
+3. Make your changes and commit them:
 
-Verify
+```bash
+1 git commit -m "Add my feature"
+```
 
-Open In Editor
-Edit
-Copy code
-git commit -m "Add my feature"
-Push to your branch:
-bash
+4. Push to your branch:
 
-Verify
+```bash
+1 git push origin feature/my-feature
+```
 
-Open In Editor
-Edit
-Copy code
-git push origin feature/my-feature
-Create a pull request.
+5. Create a pull request.
 Please ensure that your code adheres to the project's coding standards and includes appropriate tests.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
+## License
+This project is licensed under the Apache 2.0 License. See the [LICENSE](LICENSE) file for details.
